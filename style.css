@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 * {
   padding: 0;
@@ -8,16 +8,16 @@
 
 body {
   font-size: 14px;
-  background: darkblue url('./bg.jpg') no-repeat fixed;
+  background: white url("./bg.jpg") no-repeat fixed;
   background-size: cover;
 }
 
-#container {  
+#container {
   max-width: 960px;
   margin: 20px auto;
   padding: 2em;
   border: 1px solid #ccc;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* 헤더 부분 */
@@ -28,7 +28,7 @@ header {
 
 header h1 {
   margin: 1.2em auto;
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
   text-transform: uppercase;
   font-size: 3em;
   letter-spacing: 0.6em;
@@ -48,7 +48,6 @@ main {
 
 section {
   margin: auto 1em 4em 2em;
-
 }
 
 /* 왼쪽, 프로필 이미지 부분 */
@@ -56,11 +55,15 @@ section {
 #pf-img {
   text-align: center;
   margin-bottom: 2em;
+  width: 5px;
+  height: 5px;
 }
 #pf-img img {
   border: 1px solid #ccc;
   border-radius: 50%;
   box-shadow: 5px 5px #eee;
+  width: 50px;
+  height: 50px;
 }
 
 /* 왼쪽, 자기 소개 부분 */
@@ -70,7 +73,7 @@ section {
 }
 
 #sns li {
-  margin-top:1em;
+  margin-top: 1em;
   margin-left: -3em;
 }
 
@@ -95,37 +98,37 @@ i {
 
 dt {
   font-weight: bold;
-  margin:1em auto;
+  margin: 1em auto;
 }
 dd {
   margin-left: 1.5em;
 }
 
 #base {
-  width:100%;
+  width: 100%;
   background-color: #ddd;
 }
 .text {
   text-align: right;
-  padding-top:0.8em;
+  padding-top: 0.8em;
   padding-bottom: 0.8em;
   padding-right: 0.8em;
-  color:white;
+  color: white;
 }
 .htmlcss {
-  width:90%;
+  width: 90%;
   background-color: #777;
 }
 .js {
-  width:80%;
+  width: 80%;
   background-color: #777;
 }
 .react {
-  width:80%;
+  width: 80%;
   background-color: #777;
 }
 .github {
-  width:90%;
+  width: 90%;
   background-color: #777;
 }
 
